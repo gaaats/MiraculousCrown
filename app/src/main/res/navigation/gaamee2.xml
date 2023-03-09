@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gaamee2"
+    app:startDestination="@id/fraaau1Fragment">
+
+    <fragment
+        android:id="@+id/fraaau1Fragment"
+        android:name="com.kooapps.stackybir.ggthigt.Fraaau1Fragment"
+        android:label="fragment_fraaau1"
+        tools:layout="@layout/fragment_fraaau1" >
+        <action
+            android:id="@+id/action_fraaau1Fragment_to_fraauu22Fragment"
+            app:destination="@id/fraauu22Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fraauu22Fragment"
+        android:name="com.kooapps.stackybir.gthhyhyhy.Fraauu22Fragment"
+        android:label="fragment_fraauu22"
+        tools:layout="@layout/fragment_fraauu22" >
+        <action
+            android:id="@+id/action_fraauu22Fragment_to_fraaau1Fragment"
+            app:destination="@id/fraaau1Fragment" />
+    </fragment>
+</navigation>
